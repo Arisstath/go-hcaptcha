@@ -1,9 +1,6 @@
 package hcaptcha
 
 import (
-	"context"
-	"crypto/sha1"
-	"encoding/hex"
 	"github.com/go-redis/redis/v8"
 	"github.com/justtaldevelops/go-hcaptcha/utils"
 	"github.com/sirupsen/logrus"
